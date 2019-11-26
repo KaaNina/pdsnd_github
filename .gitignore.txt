@@ -1,2 +1,5 @@
 
-### Bike Share Data
+
+# Ignore all csv files
+*.csv
+
