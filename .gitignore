@@ -1,0 +1,10 @@
+
+
+
+# Ignore all csv files
+*.csv
+
+
+washington.csv
+new_york_city.csv
+chicago.csv
