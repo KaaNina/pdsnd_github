@@ -6,7 +6,7 @@
  
 <h3><b>Description</b></h3>  
 
-<h4><b>Project III</b></h4>
+<h4><b>Project III for Git and Github</b></h4>
 
 <p> Comments were added and are identified by a ## symbol</p> 
 
@@ -22,7 +22,7 @@ I will write a code import the data and answer interesting questions about it by
 <li> Trip Duration </li> 
 <li> Start Station </li> 
 <li> End Station </li> 
-<li>  User Type </li> 
+<li> User Type </li> 
 </ol>
 
 <p>The Chicago and New York City files also have the following two columns:</p>
@@ -47,7 +47,9 @@ I will write a code import the data and answer interesting questions about it by
 </ol>
 
 <h7>Files used</h7>
+
 </ol>
+<li>Added a .gitignore file to the repo to avoid having to commit the csv files at all times</li>
 <li>Chicago.csv </li>
 <li>New_york_city.csv</li>
 <li>washington.csv</li>
