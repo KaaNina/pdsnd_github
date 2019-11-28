@@ -7,7 +7,9 @@
 <h3>Description</h3>  
 
 <h4>Project III </h4>
- 
+
+<p> Comments were added and are identified by a ## symbol</p> 
+
 <h5> Overview </h5>
 
 <p>In this project, I will explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Using Python,
@@ -40,7 +42,8 @@ I will write a code import the data and answer interesting questions about it by
 <li> What is the most common trip (i.e., the combination of start station and end station that occurs the most often)?</li>
 <li> What are the counts of each user type?</li>
 <li> What are the counts of gender?</li>
-<li>  What is the earliest birth year (when the oldest person was born), most recent birth year, and most common birth year?</li>
+<li> What is the earliest birth year (when the oldest person was born), most recent birth year, and most common birth year?</li>
+<li></li>
 </ol>
 
 <h7>Files used</h7>
