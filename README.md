@@ -1,12 +1,12 @@
 ﻿<html>
 <head>GitHub & Git Project 3 </head>
-<h1>Bike Share Data </h1>
+<h1><b> Bike Share Data </b></h1>
 
-<h2>Project created 26/11/2019 </h2>
+<h2><b><i>Project created 26/11/2019</i></b></h2>
  
-<h3>Description</h3>  
+<h3><b>Description</b></h3>  
 
-<h4>Project III </h4>
+<h4><b>Project III</b></h4>
 
 <p> Comments were added and are identified by a ## symbol</p> 
 
@@ -43,7 +43,7 @@ I will write a code import the data and answer interesting questions about it by
 <li> What are the counts of each user type?</li>
 <li> What are the counts of gender?</li>
 <li> What is the earliest birth year (when the oldest person was born), most recent birth year, and most common birth year?</li>
-<li></li>
+<li> Student is encouraged to add any interesting findings from the data</li>
 </ol>
 
 <h7>Files used</h7>
@@ -55,9 +55,11 @@ I will write a code import the data and answer interesting questions about it by
 </ol>
 
 <h8> Credits</h8>
-forked from <https://github.com/udacity/pdsnd_github>
-<https://githowto.com/tagging_versions>
-<https://www.markdownguide.org/basic-syntax/>
+<ol>
+<li>forked from <https://github.com/udacity/pdsnd_github></li>
+<li><https://githowto.com/tagging_versions></li>
+<li><https://www.markdownguide.org/basic-syntax/></li>
+</ol>
 
 <@Kastiro_Nina>
 
