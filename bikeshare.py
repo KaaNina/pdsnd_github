@@ -2,6 +2,8 @@ import time
 from datetime import datetime, date
 import pandas as pd
 import numpy as np
+import statistics as st
+import datetime as t
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -146,7 +148,7 @@ def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
-    start_time = datetime.time
+    start_time = t.time()
 
     # display total travel time
     total_travel_time = df['Trip Duration'].sum()
@@ -174,7 +176,7 @@ def trip_duration_stats(df):
     print('\nMean travel time is {} hours {} minutes {} seconds'.format(hour1, minutes1, seconds1))
 
 
-    print("\nThis took %s seconds." % (datetime.combine(date.today(), time.time) - datetime.combine(date.today(), time.time)))
+    print("\nThis took %s seconds." % (datetime.combine(date.today(), t.time()) - datetime.combine(date.today(), start_time)))
     print('-'*40)
 
 
