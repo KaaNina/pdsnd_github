@@ -164,9 +164,8 @@ def trip_duration_stats(df):
     hour = time // 3600
     time %= 3600
     minutes = time // 60
-    time %= 60
-    seconds = time
-    print('\nTotal travel time is {} days {} hours {} minutes {} seconds'.format(day, hour, minutes, seconds))
+  
+    print('\nTotal travel time is {} days {} hours {} minutes '.format(day, hour, minutes))
 
 
     # display mean travel time
@@ -177,9 +176,8 @@ def trip_duration_stats(df):
     hour1 = time1 // 3600
     time1 %= 3600
     minutes1 = time1 // 60
-    time1 %= 60
-    seconds1 = time1
-    print('\nMean travel time is {} hours {} minutes {} seconds'.format(hour1, minutes1, seconds1))
+  
+    print('\nMean travel time is {} hours {} minutes'.format(hour1, minutes1))
 
 
     print("\nThis took %s seconds." % (datetime.combine(date.today(), t.time()) - datetime.combine(date.today(), start_time)))
