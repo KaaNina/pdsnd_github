@@ -1,4 +1,5 @@
 ﻿<html>
+<body>
 <head>GitHub & Git Project 3 </head>
 <h1><b> Bike Share Data </b></h1>
 
@@ -46,9 +47,8 @@ I will write a code import the data and answer interesting questions about it by
 <li> Student is encouraged to add any interesting findings from the data</li>
 </ol>
 
-<h7>Files used</h7>
 
-</ol>
+<p>Files used</p>
 <li>Added a .gitignore file to the repo to avoid having to commit the csv files at all times</li>
 <li>Chicago.csv </li>
 <li>New_york_city.csv</li>
@@ -58,11 +58,11 @@ I will write a code import the data and answer interesting questions about it by
 
 <h8> Credits</h8>
 <ol>
-<li>forked from <https://github.com/udacity/pdsnd_github></li>
+<li><b>forked from <https://github.com/udacity/pdsnd_github</b></li>
 <li><https://githowto.com/tagging_versions></li>
 <li><https://www.markdownguide.org/basic-syntax/></li>
 </ol>
 
 <@Kastiro_Nina>
-
+</body>
 </html>
