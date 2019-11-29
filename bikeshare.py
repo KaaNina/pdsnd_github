@@ -5,6 +5,8 @@ import numpy as np
 import statistics as st
 import datetime as t
 
+#These are the cities data will be collected about, chicago, New york city, washington.
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -21,6 +23,7 @@ def get_filters():
 
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # User is supposed to enter the city listed below.
     while True:
         city = str(input('Which City are you from? Chicago, New York City, Washington ::: '))
         if city.title() not in ('New York City', 'Chicago', 'Washington'):
@@ -30,7 +33,8 @@ def get_filters():
            break
 
 
-    # get user input for month (all, january, february, ... , june)
+    #get user input for month (all, january, february, ... , june), if month is not listed then user will get a message to try again
+    #User is supposed to enter months listed below.
     while True:
         month = str(input('Which Month would you like to explore? All, January, February, March, April, May, June :::  '))
         if month.title() not in ('All, January, February, March, April, May, June'):
@@ -40,6 +44,7 @@ def get_filters():
              break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
+    # User is supposed to enter days of the weeks listed below.
 
     while True:
       day = input("\nAre you looking for a particular day?  Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or 'All'.\n")
@@ -77,6 +82,7 @@ def load_data(city, month, day):
     #print(df.head())
 
     # filter by month
+    # This if function is supposed to allow users input all month and when they do data is computed for all the listed
     if month != 'All':
 
         # use the index of the month list
@@ -95,7 +101,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+   ##Displays statistics on the most frequent times of travel.##
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
